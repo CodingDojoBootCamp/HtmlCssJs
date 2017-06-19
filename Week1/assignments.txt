@@ -1,0 +1,15 @@
+C:\dev\DojoAssignments\iOS
+C:\dev\DojoAssignments\MEAN
+C:\dev\DojoAssignments\netCore
+C:\dev\DojoAssignments\Python
+C:\dev\DojoAssignments\Ruby
+C:\dev\DojoAssignments\WebFundamentals
+C:\dev\DojoAssignments\WebFundamentals\CSS
+C:\dev\DojoAssignments\WebFundamentals\Git
+C:\dev\DojoAssignments\WebFundamentals\HTML
+C:\dev\DojoAssignments\WebFundamentals\Javascript
+C:\dev\DojoAssignments\WebFundamentals\CSS\about.txt
+C:\dev\DojoAssignments\WebFundamentals\Git\about.txt
+C:\dev\DojoAssignments\WebFundamentals\HTML\about.txt
+C:\dev\DojoAssignments\WebFundamentals\HTML\indentation.html
+C:\dev\DojoAssignments\WebFundamentals\Javascript\about.txt
