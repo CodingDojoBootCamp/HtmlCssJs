@@ -1,0 +1,11 @@
+{
+    // Launch current open file in chrome by pressing ctrl+shift+b
+    "version": "0.1.0",
+    "command": "Chrome",
+    "windows": {
+        "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    "args": [
+        "${file}"
+    ]
+}
