@@ -1,0 +1,7 @@
+Open GitHub
+Login
+Create a new repository
+Clone the Repository
+Add Changes
+Commit Changes
+push Changes
