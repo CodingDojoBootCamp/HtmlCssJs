@@ -8,8 +8,8 @@ body {
 
 header {
     /*position: fixed;
-    display: block;
-    top: 0;*/
+            display: block;
+            top: 0;*/
     border: 5px solid red;
     background: red;
     border-radius: 5px;
