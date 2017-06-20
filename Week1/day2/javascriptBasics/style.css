@@ -1,0 +1,40 @@
+body {
+    background: slateblue;
+}
+
+#container {
+    margin: 10px 10px 0px 10px
+}
+
+header {
+    /*position: fixed;
+    display: block;
+    top: 0;*/
+    border: 5px solid red;
+    background: red;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: lightblue;
+    border-radius: 5px;
+    display: inline-block;
+    width: 20%;
+    margin-right: 10px;
+}
+
+.main {
+    background: black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 75%;
+    color: white;
+    vertical-align: top;
+}
+
+footer {
+    border-radius: 5px;
+    background: gray;
+    margin-top: 10px;
+}
