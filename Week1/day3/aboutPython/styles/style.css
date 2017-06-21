@@ -68,8 +68,6 @@ header nav {
     box-shadow: 2px 2px 1px black;
 }
 
-header nav ul {}
-
 header nav li {
     display: inline-block;
     margin-left: 10px;
