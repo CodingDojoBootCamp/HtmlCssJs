@@ -1,0 +1,146 @@
+body {
+    background: #245176;
+    font-family: sans-serif;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.wrapper {
+    width: 970px;
+    margin: auto
+}
+
+header {}
+
+.title-search {
+    justify-content: space-between;
+}
+
+#logo {
+    display: inline-block;
+    width: 300px;
+    align-self: center;
+}
+
+.title-search aside {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.title-search aside a {
+    color: #ECC736;
+}
+
+.searchbox {
+    background: #444444;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px black;
+}
+
+.searchbox input[type='text'] {
+    font-size: 1.25em;
+    widows: 100px;
+    text-align: center;
+}
+
+.searchbox input[type='submit'] {
+    color: white;
+    background: #245176;
+    box-shadow: 2px 2px 1px black;
+    border: 1px solid #B3B7BA;
+    font-size: 1.25em;
+}
+
+header nav {
+    background-image: -webkit-linear-gradient(top, #3271A6, #487FAC, #3271A6);
+    background-image: -moz-linear-gradient(top, #3271A6, #487FAC, #3271A6);
+    background-image: linear-gradient(to bottom, #3271A6, #487FAC, #3271A6);
+    font-size: 1.5em;
+    height: 2em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px black;
+}
+
+header nav ul {}
+
+header nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main aside {
+    width: 22%;
+    margin-right: 20px;
+}
+
+.main section {
+    width: 78%;
+    text-align: center;
+}
+
+.yellow {
+    color: #ECC736;
+}
+
+aside nav li {
+    list-style: none;
+    text-align: center;
+}
+
+aside nav a {
+    color: white;
+}
+
+aside nav li:before {
+    content: ">> ";
+    color: #ECC736;
+    font-size: .5em;
+}
+
+.subsec {
+    background: white;
+    color: black;
+}
+
+.subsec article {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    border-top: 4px solid #73A7D5;
+    padding-top: 5px;
+}
+
+footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#255277), to(#3475AD));
+    background-image: -webkit-linear-gradient(top, #255277, #3475AD);
+    background-image: -moz-linear-gradient(top, #255277, #3475AD);
+    background-image: linear-gradient(to bottom, #255277, #3475AD);
+    color: #679BC8;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: #679BC8;
+    font-size: 1.25em;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
