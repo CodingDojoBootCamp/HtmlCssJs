@@ -24,9 +24,9 @@ header h2 {
 }
 
 .bg-grad {
-    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#E2E2E3), to(white));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E2E2E3), to(white));
     background-image: -webkit-linear-gradient(top, #E2E2E3, white);
-    background-image: -moz-linear-gradient(top, #E2E2E3, white);*/
+    background-image: -moz-linear-gradient(top, #E2E2E3, white 20%);
     background-image: linear-gradient(to bottom, #E2E2E3, white 20%);
 }
 
@@ -62,15 +62,31 @@ header h2 {
 .blue {
     background: #6096C1;
     background-image: linear-gradient(top, #6496c8, #346392);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6496c8), to(#2C6CA3));
+    background-image: -webkit-linear-gradient(top, #6496c8, #2C6CA3);
+    background-image: -moz-linear-gradient(top, #6496c8, #2C6CA3);
+    background-image: linear-gradient(to bottom, #6496c8, #2C6CA3);
 }
 
 .orange {
     background: #EAAD56;
     /*background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, .25) 25%, rgba(0, 0, 0, .25) 75%, rgba(255, 255, 255, 0) 100%);*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#EAAD56), to(#EF7700));
+    background-image: -webkit-linear-gradient(top, #EAAD56, #EF7700);
+    background-image: -moz-linear-gradient(top, #EAAD56, #EF7700);
+    background-image: linear-gradient(to bottom, #EAAD56, #EF7700);
 }
 
 .light-blue {
-    background: #71CFDF
+    background: #71CFDF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#71CFDF), to(#00C1DF));
+    background-image: -webkit-linear-gradient(top, #71CFDF, #00C1DF);
+    background-image: -moz-linear-gradient(top, #71CFDF, #00C1DF);
+    background-image: linear-gradient(to bottom, #71CFDF, #00C1DF);
+}
+
+.big-font {
+    font-size: 2em;
 }
 
 .shadow {
@@ -94,6 +110,27 @@ aside {
     margin-left: 10px;
 }
 
+.short-definition {
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.contact {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    padding: 0;
+    margin: 0;
+}
+
 .advert {
     padding-top: 20px;
     padding-left: 20px;
@@ -105,6 +142,7 @@ aside {
 .advert h4 {
     z-index: 100;
     text-align: center;
+    font-size: 1.5em;
 }
 
 .ninja-img {
@@ -118,17 +156,18 @@ main {
     margin-right: 10px;
 }
 
-.contact {
+main header {
+    margin-top: 10px;
     justify-content: space-between;
     border-bottom: 1px solid gray;
 }
 
 .home-img {
-    width: 50px;
+    width: 35px;
 }
 
 .phone-img {
-    width: 100px;
+    width: 70px;
     align-self: center;
     margin-right: 10px;
 }
