@@ -1,0 +1,46 @@
+.wrapper {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#square {
+    width: 140px;
+    height: 140px;
+    background: blue;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 120px solid blue;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#circle {
+    width: 140px;
+    height: 140px;
+    background: blue;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#packman {
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-top: 70px solid blue;
+    border-left: 70px solid blue;
+    border-bottom: 70px solid blue;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}

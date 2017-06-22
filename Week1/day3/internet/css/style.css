@@ -24,8 +24,8 @@ header h2 {
 }
 
 .bg-grad {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#E2E2E3), to(white));
-    background-image: -webkit-linear-gradient(top, #E2E2E3, white);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E2E2E3), to(white 20%));
+    background-image: -webkit-linear-gradient(top, #E2E2E3, white 20%);
     background-image: -moz-linear-gradient(top, #E2E2E3, white 20%);
     background-image: linear-gradient(to bottom, #E2E2E3, white 20%);
 }
