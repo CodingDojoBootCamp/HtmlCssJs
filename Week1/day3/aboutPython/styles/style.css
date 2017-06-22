@@ -13,8 +13,6 @@ body {
     margin: auto
 }
 
-header {}
-
 .title-search {
     justify-content: space-between;
 }
@@ -44,7 +42,7 @@ header {}
 
 .searchbox input[type='text'] {
     font-size: 1.25em;
-    widows: 100px;
+    width: 150px;
     text-align: center;
 }
 
