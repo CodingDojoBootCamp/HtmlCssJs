@@ -1,0 +1,55 @@
+body {
+    width: 80%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+}
+
+.cards {
+    flex-flow: wrap;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.card p {
+    display: none;
+}
+
+.form-row {
+    margin: 10px;
+}
+
+.form-group {
+    margin: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group textarea {
+    display: block;
+    width: 100%
+}
+
+form {
+    min-width: 300px;
+}
