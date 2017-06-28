@@ -17,8 +17,10 @@ var imgTemplate =
 
 
 function initialize() {
+    var col;
     for (var i = 0; i < images.length; i++) {
-        $('main').append(imgTemplate(images[i][0], i, 0));
+        col = getRandomIntInclusive(0, 1);
+        $('main').append(imgTemplate(images[i][col], i, col));
 
     }
 
@@ -31,5 +33,12 @@ function initialize() {
     });
 
 }
+
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
+}
+
 
 initialize();
