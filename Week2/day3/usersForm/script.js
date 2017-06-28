@@ -7,9 +7,7 @@ var newUser = {
 
 $('document').ready(function () {
     $('#addUser').submit(function (evt) {
-        evt.preventDefault();
-
-        //console.log(getFormData($(this)));
+        //evt.preventDefault();
         addUser(getFormAsObject($(this)));
         return false;
     });
