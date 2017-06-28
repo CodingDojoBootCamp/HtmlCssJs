@@ -14,7 +14,9 @@ $('document').ready(function () {
         addUser(getFormAsObject($(this)));
         return false;
     });
-
+    $(document).on('click', '.card', function () {
+        $(this).children('p').toggle();
+    })
     addUser(newUser);
 
 });
@@ -32,20 +34,10 @@ function getFormAsObject(frm) {
 }
 
 function addUser(usr) {
-    //console.log(usr);
-    // var usrRow = '<tr>' +
-    //     '<td>' + usr.fname + '</td>' +
-    //     '<td>' + usr.lname + '</td>' +
-    //     '<td>' + usr.email + '</td>' +
-    //     '<td>' + usr.phone + '</td>' +
-    //     '</tr>'
-    var contact = '<div class="card" id="card' + cards + '">' +
+    var contact = '<div class="card" id="' + cards + '">' +
         '<h3>' + usr.fname + ' ' + usr.lname + '</h3>' +
         '<p>' + usr.description + '</p>' +
         '</div>'
     $('.cards').append(contact);
-    $('#card' + cards).click(function () {
-        $(this).children('p').toggle();
-    })
     cards++;
 }
