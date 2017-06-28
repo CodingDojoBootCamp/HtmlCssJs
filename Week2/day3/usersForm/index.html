@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Users</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table id="users">
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+            <th>Contact #</th>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+    <form id="addUser" action="">
+
+        <h2>Add User</h2>
+        <div class="form-row">
+            <label for="fname">First Name:</label>
+            <input name="fname" id="fname" type="text">
+        </div>
+        <div class="form-row">
+            <label for="lname">Last Name:</label>
+            <input name="lname" id="lname" type="text">
+        </div>
+        <div class="form-row">
+            <label for="email">Email Address:</label>
+            <input name="email" id="email" type="text">
+        </div>
+        <div class="form-row">
+            <label for="phone">Contact Number:</label>
+            <input name="phone" id="phone" type="text">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
